@@ -1,0 +1,19 @@
+{
+  "name": "world-projection",
+  "version": "2.0.0",
+  "private": true,
+  "description": "World Projection — the next 25 years of our world (2026→2050): interactive 3D globe & city future model in 6 languages (Three.js r187, WebGPU + TSL) by ARC Studios / Emre Arıcı",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "grids": "node scripts/grids.cjs",
+    "climate": "node scripts/match-climate.cjs"
+  },
+  "devDependencies": {
+    "i18n-iso-countries": "^7.14.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "license": "MIT",
+  "homepage": "https://arcstudios.com.tr",
+  "author": "Emre Arıcı / ARC Studios"
+}
